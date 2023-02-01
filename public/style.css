@@ -52,11 +52,11 @@ li {
   width: 5em;
 }
 
-#caps {
+#shift {
   width: 6em;
 }
 
-#left-shift {
+#backspace {
   width: 8em;
 }
 
@@ -64,7 +64,7 @@ li {
   width: 6em;
 }
 
-#right-shift {
+#delete {
   width: 8em;
 }
 
@@ -99,21 +99,21 @@ li {
   color: darkorange;
 }
 
-.pointer1st {
+.pointer-left {
   background-color: gold;
   border: 3px solid gold;
 }
 
-.pointer1st.selected {
+.pointer-left.selected {
   color: gold;
 }
 
-.pointer2nd {
+.pointer-right {
   background-color: khaki;
   border: 3px solid khaki;
 }
 
-.pointer2nd.selected {
+.pointer-right.selected {
   color: khaki;
 }
 
